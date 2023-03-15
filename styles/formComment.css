@@ -1,0 +1,73 @@
+.formComment {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E6E6E9;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    border-top: none;
+    margin-bottom: 40px;
+    padding-top: 0;
+}
+
+.formInfo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.formData__buttons {
+    margin-top: 20px;
+}
+
+.formDate {
+    width: 200px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+}
+
+.formName, .formDate {
+    border-radius: 40px;
+    padding: 10px;
+    border: 2px solid #1d9bf0;
+}
+
+.formData__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.formName {
+    margin-right: 10px;
+}
+
+.formTextarea {
+    margin-bottom: 10px;
+    border: 2px solid #1d9bf0;
+    border-radius: 40px;
+    padding: 15px;
+}
+
+.formTextarea:invalid {
+    border: 2px solid red;
+}
+
+.buttonSend {
+    background-color: #1d9bf0;
+    border: none;
+    border-radius: 999px;
+    width: 150px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.buttonSend:hover {
+    background-color: rgb(43, 138, 211);
+    cursor: pointer;
+}
+
+.buttonSend:disabled {
+    background-color: rgba(128, 128, 128, .5);
+}

@@ -1,0 +1,22 @@
+@import url('./userNameBlock.css');
+@import url('./formComment.css');
+@import url('./commentBlock.css');
+@import url('./popups.css');
+
+/* commmon */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+.errorValidate {
+    color: red;
+    margin-bottom: 5px;
+
+}

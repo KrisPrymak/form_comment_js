@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Comment form</title>
+</head>
+
+<body>
+  <div class="popupBg hidden">
+    <div class="popup">
+      <div class="popup__content">
+        <h2 class="popup__title">Are you sure?</h2>
+        <div class="popup__buttons">
+          <button class="popup__true">Yes</button>
+          <button class="popup__false">No</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="formDataBg hidden">
+    <div class="formData">
+
+      <form action="#" class="formData__content">
+        <input required class="formName" maxlength="20" type="text" name="name" id="name"
+          placeholder="Your name"></input>
+        <div class="formData__buttons">
+          <button class="buttonSave">Save</button>
+          <button class="buttonCancel">Cancel</button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+  <div class="userNameBlock">
+    <p class="userNameBlock__name">Unknown user</p>
+    <button class="userNameBlock__auth">Auth</button>
+  </div>
+
+  <form action="#" class="formComment">
+    <input class="formDate" type="date" name="date">
+    <input maxlength="80" name="text" class="formTextarea" placeholder="Do you have anything to say?"></input>
+    <button class="buttonSend" type="submit">Send comment</button>
+  </form>
+
+  <div class="comments">
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,26 @@
+.userNameBlock {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    align-items: center;
+    border-right: 1px solid #E6E6E9;
+    border-left: 1px solid #E6E6E9;
+    padding-bottom: 0;
+}
+
+.userNameBlock__auth {
+    margin-left: 30px;
+    color: #1d9bf0;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.userNameBlock__auth:hover {
+    color: rgb(43, 138, 211);
+    background-color: #E6E6E9;
+}

@@ -1,0 +1,64 @@
+.popupBg, .formDataBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(131, 131, 131, 0.1);
+    backdrop-filter: blur(10px);
+    z-index: 2;
+  }
+  .popup, .formData {
+    position: absolute;
+    background: #ffffff;
+    width: 730px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px 30px 60px 65px;
+    text-align: center;
+    z-index: 2000;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .popup__content, .formData__content {
+      padding: 0 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+.popup__title {
+    margin-bottom: 20px;
+}
+
+.popup__buttons button, .formData__buttons button {
+    padding: 8px;
+    width: 80px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.popup__true, .buttonSave {
+    margin-right: 20px;
+    background-color: rgba(196, 69, 54, .3);
+}
+
+.popup__true:hover, .buttonSave:hover {
+    background-color: rgba(196, 69, 54, .5);
+}
+
+.popup__false, .buttonCancel {
+    background-color: rgba(0, 168, 120, .3);
+}
+
+.popup__false:hover, .buttonCancel:hover {
+    background-color: rgba(0, 168, 120, .5);
+}
+
+.buttonSave:disabled {
+    background-color: rgba(128, 128, 128, .5);
+}
